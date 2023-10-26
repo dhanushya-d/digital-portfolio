@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;  
+}
+.hero
+{
+  height: 100vh;
+  width: 100%;
+  background-image: url(background.jpg.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+nav 
+{
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%; 
+
+}
+nav ul{
+  display: flex;
+}
+nav ul li{
+  padding: 10px 20px;
+}
+.name
+{
+  color: white;
+  font-size: 25px ;
+}
+nav ul li a
+{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+nav ul li a:hover
+{
+  color: red;
+  transition: 1s;
+}
+.content
+{
+  top: 150;
+  left: 150;
+  position: absolute;
+  transform: translate(50%,50%);
+}
+h3{
+  color: pink;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+h2{
+  color: white;
+  font-size: 40px;
+  
+}
+h4{
+  color: black;
+}
+.About
+{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: black;
+}
+.About img{
+  height: 500px;
+  width: auto;
+}
+.About_content h3
+{
+  margin-left: 50px;
+  font-size: 30px;
+  color: white;
+}
+.About_content ul li
+{
+  color: pink;
+  margin-left: 50px;
+}
+.main
+{
+  display: flex;
+}
+.About_content ul li span
+{
+  color: white;
+  
+}
+.Skills
+{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: darkgray;
+}
+.skills_content h4
+{
+  margin-left: 500px;
+  font-size: 50px;
+  color: black;
+  margin-bottom: 30px;
+  
+}
+.skills_content ul li
+{
+  color: red;
+  font: bold;
+  margin-left: 200px;
+
+}
+.skills_content ul
+{
+  display: flex;
+}
+.skills_content ul li
+{
+  padding: 10px 20px;
+}
+.Contact us
+{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: white;
+}
+.contact_content h5
+{
+  margin-left: 500px;
+  font-size: 50px;
+  color: black;
+  margin-bottom: 30px;
+}
+.contact_content h5 ul li
+{
+  color: black;
+  font: bolder; 
+}
+.contact_content ul li span
+{
+  font: 100;
+  color: darkblue;
+}
+
